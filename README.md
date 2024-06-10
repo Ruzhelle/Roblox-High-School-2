@@ -18,6 +18,6 @@ There are two types of UI.
 - Big Head FE: **This will make your character head big.**
 
 # Admin/RemoteSpy
-- Infinite yield: **This script gives you admin commands (Except other commands that the owner can only use.)
+- Infinite yield: **This script gives you admin commands (Except other commands that the owner can only use.)**
 - Hydroxide: **This script gives you a Access to the Workspace and other stuff related to the Workspace.**
 
