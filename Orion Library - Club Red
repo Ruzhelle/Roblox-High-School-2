@@ -1,0 +1,116 @@
+local player = game.Players.LocalPlayer
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "R. Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+    Name = "Club Red",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+OrionLib:MakeNotification({
+    Name = "Welcome!",
+    Content = "DM Witchyy#6039 for Issues!",
+    Image = "rbxassetid://4483345998",
+    Time = 5
+})
+
+local Section = Tab:AddSection({
+    Name = "Club Red"
+})
+
+Tab:AddButton({
+    Name = "Red Spice",
+    Callback = function()
+           local args = {
+    [1] = "RedSpice"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Jobs"):WaitForChild("ClubRed"):WaitForChild("MakePotion"):FireServer(unpack(args))
+      end    
+})
+
+Tab:AddButton({
+    Name = "Green Spice",
+    Callback = function()
+local args = {
+    [1] = "GreenSpice"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Jobs"):WaitForChild("ClubRed"):WaitForChild("MakePotion"):FireServer(unpack(args))
+      end    
+})
+
+Tab:AddButton({
+    Name = "Golden Chalice ",
+    Callback = function()
+local args = {
+    [1] = "GoldenChalice"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Jobs"):WaitForChild("ClubRed"):WaitForChild("MakePotion"):FireServer(unpack(args))
+      end    
+})
+
+Tab:AddButton({
+    Name = "Dragon Fire",
+    Callback = function()
+local args = {
+    [1] = "DragonFire"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Jobs"):WaitForChild("ClubRed"):WaitForChild("MakePotion"):FireServer(unpack(args))
+      end    
+})
+Tab:AddButton({
+    Name = "Ghastly Brew",
+    Callback = function()
+local args = {
+    [1] = "GhastlyBrew"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Jobs"):WaitForChild("ClubRed"):WaitForChild("MakePotion"):FireServer(unpack(args))
+      end    
+})
+
+Tab:AddButton({
+    Name = "Witches Brew",
+    Callback = function()
+local args = {
+    [1] = "WitchesBrew"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Jobs"):WaitForChild("ClubRed"):WaitForChild("MakePotion"):FireServer(unpack(args))
+      end    
+})
+
+Tab:AddButton({
+    Name = "Bloxy Cola",
+    Callback = function()
+local args = {
+    [1] = "BloxyCola"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Jobs"):WaitForChild("ClubRed"):WaitForChild("MakePotion"):FireServer(unpack(args))
+      end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Credit",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Credit"
+})
+
+Tab:AddButton({
+    Name = "Owner!: Witchyy - AKA: Ruzhelle",
+    Callback = function()
+
+local Section = Tab:AddSection({
+    Name = "Note: If you want to modify the script, please don't forget to credit me for making this script. Thank you!"
+})
