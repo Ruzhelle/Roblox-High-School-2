@@ -28,3 +28,10 @@ There are two types of UI.
 # Farming tool
 - Club Red: **There are multiple selection for the drinks. One click and it'll give you the required drink.**
 
+# Credits
+- Credits: **Of course, you already know who made the script.**
+
+
+# Note:
+
+The reason why I separated the Kova & Orion UI, **Is because I can't mix them in one. So I decided to separate them.**
