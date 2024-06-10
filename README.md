@@ -19,5 +19,5 @@ There are two types of UI.
 
 # Admin/RemoteSpy
 - Infinite yield: **This script gives you admin commands (Except other commands that the owner can only use.)**
-- Hydroxide: **This script gives you a Access to the Workspace and other stuff related to the Workspace.**
+- Hydroxide: **This script gives you access to the Workspace and other stuff related to the Workspace.**
 
