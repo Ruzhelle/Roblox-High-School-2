@@ -21,3 +21,10 @@ There are two types of UI.
 - Infinite yield: **This script gives you admin commands (Except other commands that the owner can only use.)**
 - Hydroxide: **This script gives you access to the Workspace and other stuff related to the Workspace.**
 
+# 🤷‍♂️ What's inside the Orion UI?
+
+**The Following:**
+
+# Farming tool
+- Club Red: **There are multiple selection for the drinks. One click and it'll give you the required drink.**
+
