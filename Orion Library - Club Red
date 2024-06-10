@@ -104,13 +104,5 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-    Name = "Credit"
-})
-
-Tab:AddButton({
-    Name = "Owner!: Witchyy - AKA: Ruzhelle",
-    Callback = function()
-
-local Section = Tab:AddSection({
-    Name = "Note: If you want to modify the script, please don't forget to credit me for making this script. Thank you!"
+    Name = "Owner: Ruzhelle - Witchyy#6039"
 })
