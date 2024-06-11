@@ -15,7 +15,6 @@ There are two types of UI.
 
 # Trolling Tools
 - Chat Bypasser: **This will allow you to curse in any games.**
-- Big Head FE: **This will make your character head big.**
 
 # Admin/RemoteSpy
 - Infinite yield: **This script gives you admin commands (Except other commands that the owner can only use.)**
