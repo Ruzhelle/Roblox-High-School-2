@@ -97,27 +97,6 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Jobs"
       end    
 })
 
-
-local Tab = Window:MakeTab({
-    Name = "Auto Caught Fish",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
-})
-
-local Section = Tab:AddSection ({
-    Name = "Fishing"
-})
-
-Tab:AddButton({
-    Name = "Auto Caught Fish",
-    Callback = function()
-getgenv().farmer = true;
-while wait() do
-
-if getgenv().farmer == true then
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Fishing"):WaitForChild("Caught"):FireServer()
-      end
-
 local Tab = Window:MakeTab({
     Name = "Credits",
     Icon = "rbxassetid://4483345998",
