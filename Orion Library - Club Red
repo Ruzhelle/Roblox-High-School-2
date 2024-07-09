@@ -104,7 +104,7 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-    Name = "Auto Caught"
+    Name = "Auto Fish"
 })
 Tab:AddButton({
     Name = "Auto Caught Fish",
@@ -116,6 +116,7 @@ if getgenv().farmer == true then
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Fishing"):WaitForChild("Caught"):FireServer()
  end
 end
+})
 
 local Tab = Window:MakeTab({
     Name = "Credits",
@@ -124,4 +125,5 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection ({
-    Name = "Owner - Ruzhelle"
+    Name = "Owner"
+})
