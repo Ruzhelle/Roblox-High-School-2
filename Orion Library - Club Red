@@ -12,7 +12,7 @@ local Tab = Window:MakeTab({
 
 OrionLib:MakeNotification({
     Name = "Welcome!",
-    Content = "DM Witchyy#6039 for Issues!",
+    Content = "k.icxrus at Discord for Issues!",
     Image = "rbxassetid://4483345998",
     Time = 5
 })
@@ -25,10 +25,10 @@ Tab:AddButton({
     Name = "Red Spice",
     Callback = function()
            local args = {
-    [1] = "RedSpice"
+    [1] = "RedSpice";
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Jobs"):WaitForChild("ClubRed"):WaitForChild("MakePotion"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes", 9e9):WaitForChild("Jobs", 9e9):WaitForChild("ClubRed", 9e9):WaitForChild("MakePotion", 9e9):FireServer(unpack(args))
       end    
 })
 
@@ -36,10 +36,10 @@ Tab:AddButton({
     Name = "Green Spice",
     Callback = function()
 local args = {
-    [1] = "GreenSpice"
+    [1] = "GreenSpice";
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Jobs"):WaitForChild("ClubRed"):WaitForChild("MakePotion"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes", 9e9):WaitForChild("Jobs", 9e9):WaitForChild("ClubRed", 9e9):WaitForChild("MakePotion", 9e9):FireServer(unpack(args))
       end    
 })
 
@@ -47,10 +47,10 @@ Tab:AddButton({
     Name = "Golden Chalice ",
     Callback = function()
 local args = {
-    [1] = "GoldenChalice"
+    [1] = "GoldenChalice";
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Jobs"):WaitForChild("ClubRed"):WaitForChild("MakePotion"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes", 9e9):WaitForChild("Jobs", 9e9):WaitForChild("ClubRed", 9e9):WaitForChild("MakePotion", 9e9):FireServer(unpack(args))
       end    
 })
 
@@ -58,20 +58,20 @@ Tab:AddButton({
     Name = "Dragon Fire",
     Callback = function()
 local args = {
-    [1] = "DragonFire"
+    [1] = "DragonFire";
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Jobs"):WaitForChild("ClubRed"):WaitForChild("MakePotion"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes", 9e9):WaitForChild("Jobs", 9e9):WaitForChild("ClubRed", 9e9):WaitForChild("MakePotion", 9e9):FireServer(unpack(args))
       end    
 })
 Tab:AddButton({
     Name = "Ghastly Brew",
     Callback = function()
 local args = {
-    [1] = "GhastlyBrew"
+    [1] = "GhastlyBrew";
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Jobs"):WaitForChild("ClubRed"):WaitForChild("MakePotion"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes", 9e9):WaitForChild("Jobs", 9e9):WaitForChild("ClubRed", 9e9):WaitForChild("MakePotion", 9e9):FireServer(unpack(args))
       end    
 })
 
@@ -79,10 +79,10 @@ Tab:AddButton({
     Name = "Witches Brew",
     Callback = function()
 local args = {
-    [1] = "WitchesBrew"
+    [1] = "WitchesBrew";
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Jobs"):WaitForChild("ClubRed"):WaitForChild("MakePotion"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes", 9e9):WaitForChild("Jobs", 9e9):WaitForChild("ClubRed", 9e9):WaitForChild("MakePotion", 9e9):FireServer(unpack(args))
       end    
 })
 
@@ -90,10 +90,10 @@ Tab:AddButton({
     Name = "Bloxy Cola",
     Callback = function()
 local args = {
-    [1] = "BloxyCola"
+    [1] = "BloxyCola";
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Jobs"):WaitForChild("ClubRed"):WaitForChild("MakePotion"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes", 9e9):WaitForChild("Jobs", 9e9):WaitForChild("ClubRed", 9e9):WaitForChild("MakePotion", 9e9):FireServer(unpack(args))
       end    
 })
 
